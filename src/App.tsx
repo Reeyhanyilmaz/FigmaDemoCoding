@@ -3,6 +3,7 @@ import './App.css';
 import Carousel from './components/Carousel';
 import Subheadings from './components/Subheadings';
 import Paragraph from './components/Paragraph';
+import CardsHeader from './components/CardsHeader';
 import Video from './components/Video';
 import Header from './components/Header';
 
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Paragraph />
       <Video />
+      <CardsHeader/>
     </div>
   );
 }

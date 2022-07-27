@@ -1,0 +1,16 @@
+.cardsHeader {
+  width: 346px;
+  height: 47px;
+  margin-left: 61px;
+  margin-bottom: 35px;
+  margin-top: 64px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  border-bottom: 3px solid #de0f17;
+}
+
+
