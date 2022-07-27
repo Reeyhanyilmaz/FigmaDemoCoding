@@ -1,0 +1,48 @@
+.videoDiv {
+    position: absolute;
+    width: 873px;
+    height: 491px;
+    left: 60px;
+    top: 1317px;
+    
+    
+}
+
+/* .videoContainer {
+  position: absolute;
+  width: 873px;
+  height: 491px;
+  left: 60px;
+  top: 1317px;
+  background: #d9d9d9;
+} */
+
+.playButton {
+  position: absolute;
+  width: 100px;
+  height: 100.02px;
+  left: 447px;
+  /* top: 1512px; */
+}
+
+.ellipse {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: rgba(0, 0, 0, 0.3);
+  border: 2px solid #ffffff;
+}
+
+.polygon {
+  position: absolute;
+  left: 69.15%;
+  right: -7.46%;
+  top: 30.85%;
+  bottom: 30.86%;
+  background: #ffffff;
+  border-radius: 2px;
+  transform: rotate(90deg);
+}
