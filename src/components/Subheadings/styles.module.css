@@ -1,45 +1,42 @@
 .subheadingsDiv {
-  position: absolute;
-  width: 1440px;
   height: 38px;
-  left: 0px;
+  width: 1440px;
+  font-family: "Roboto";
+  font-size: 16px;
+  margin-top: 30px;
+  margin-left: 0;
+  margin-bottom: 60px;
+  display: flex;
+  border-bottom: 2px solid #f2f2f2;
 }
 
 .p1 {
-  position: absolute;
   width: 95px;
   height: 19px;
-  left: 60px;
-  top: 630px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+  margin-right: 20px;
+  margin-left: 60px;
   color: #000000;
 }
 
 .p2 {
-  position: absolute;
-  width: 104px;
   height: 19px;
-  left: 175px;
-  top: 630px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+  margin-right: 20px;
   color: #7f7f7f;
 }
 
 .p3 {
-  position: absolute;
   width: 191px;
   height: 19px;
-  left: 299px;
-  top: 630px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -57,11 +54,3 @@
   border: 2px solid #de0f17;
 }
 
-.line {
-  position: absolute;
-  width: 1440px;
-  height: 0px;
-  left: 0px;
-  top: 668px;
-  border: 2px solid #f2f2f2;
-}
