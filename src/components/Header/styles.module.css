@@ -1,0 +1,14 @@
+.header {
+  margin-left: 60px;
+  margin-bottom: 27px;
+  height: 47px;
+  width: 213px;
+  border-bottom: 3px solid red;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+  color: #000000;
+}
