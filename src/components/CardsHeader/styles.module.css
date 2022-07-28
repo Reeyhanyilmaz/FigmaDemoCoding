@@ -1,5 +1,5 @@
 .cardsHeader {
-  width: 346px;
+  width: 312px;
   height: 47px;
   margin-left: 61px;
   margin-bottom: 35px;
@@ -7,12 +7,15 @@
   color: #000000;
   font-family: "Roboto";
   border-bottom: 3px solid #de0f17;
-  width: 346px;
   font-size: 36px;
   line-height: 42px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
+}
+
+.cardsHeader div {
+  width: 346px;
 }
 
 @media screen and (max-width: 767px) {
@@ -23,6 +26,10 @@
     font-size: 24px;
     line-height: 28px;
     border-bottom: 3px solid #de0f17;
+  }
+
+  .cardsHeader div {
+    width: 231px ;
   }
 }
 
