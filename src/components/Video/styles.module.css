@@ -1,5 +1,15 @@
 .video {
-    width: 873px;
-    height: 491px;
-    margin-left: 60px;
+  width: 873px;
+  height: 491px;
+  margin-left: 60px;
+}
+
+@media screen and (max-width: 787px) {
+  .video {
+    width: 419px;
+    height: 211px;
+    margin-bottom: 52px;
+    margin-right: 0;
+    margin-left: 0;
+  }
 }

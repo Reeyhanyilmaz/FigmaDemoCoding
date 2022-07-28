@@ -7,7 +7,7 @@ function Video() {
         <iframe
             title="video"
             className={styles.video}
-            src="./assets/video/video.png"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY"
         />
     </div>
   );
