@@ -24,7 +24,7 @@ h1 {
 }
 
 .linkto{
-  color: #fff;
+  color: inherit;
 }
 
 @media screen and (max-width: 767px) {
