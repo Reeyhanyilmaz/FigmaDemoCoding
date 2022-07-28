@@ -4,13 +4,25 @@
   margin-left: 61px;
   margin-bottom: 35px;
   margin-top: 64px;
+  color: #000000;
+  font-family: "Roboto";
+  border-bottom: 3px solid #de0f17;
+  width: 346px;
+  font-size: 36px;
+  line-height: 42px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 42px;
-  color: #000000;
-  border-bottom: 3px solid #de0f17;
 }
 
+@media screen and (max-width: 767px) {
+  .cardsHeader {
+    margin: 0 124px 27px 20px;
+    width: 231px ;
+    height: 33px;   
+    font-size: 24px;
+    line-height: 28px;
+    border-bottom: 3px solid #de0f17;
+  }
+}
 
