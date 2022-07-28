@@ -1,7 +1,7 @@
 .subheadingsDiv {
   height: 38px;
   width: 1440px;
-  font-family: "Roboto";
+  font-family: "Roboto" ;
   font-size: 16px;
   margin-top: 30px;
   margin-left: 0;
@@ -54,3 +54,39 @@
   border: 2px solid #de0f17;
 }
 
+@media screen and (max-width: 767px) {
+  .subheadingsDiv {
+    margin: 19px 20px 40px 0;
+    width: fit-content;
+  }
+
+  .p1 {
+    width: 83px;
+    height: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #de0f17;
+  }
+
+  .p2 {
+    width: 91px;
+    height: 16px;
+    font-size: 14px;
+    margin-right: 20px;
+    width: fit-content;
+  }
+
+  .p3 {
+    width: 168px;
+    height: 16px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .redLine {
+    display: none;
+  }
+}
