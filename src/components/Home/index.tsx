@@ -13,7 +13,7 @@ function Home() {
       <CarouselComp />
       <Subheadings />
       <Header />
-      <Paragraph />
+      {/* <Paragraph /> */}
       <Video />
       <CardsHeader />
       <Cards />
