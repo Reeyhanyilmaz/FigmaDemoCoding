@@ -48,7 +48,7 @@ function Paragraph() {
           et elementum augue. Suspendisse sit amet tristique libero.
         </p>
         <button className={styles.showBtn} onClick={handleClick}>
-          {showMore ? "GİZLİ" : "YAZININ DEVAMI"}
+          {showMore ? "GİZLE" : "YAZININ DEVAMI"}
           <img
             src="./assets/button-icon/+.png"
             alt="icon"

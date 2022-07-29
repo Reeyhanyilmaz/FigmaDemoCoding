@@ -39,10 +39,11 @@
   }
 
   .p:first-child {
-    width: 150px !important;
+    width: 148px !important;
+    margin-left: -20px;
   }
 
   .p:nth-child(2) {
-    width: 156px !important;
+    width: 172px !important;
   }
 }
