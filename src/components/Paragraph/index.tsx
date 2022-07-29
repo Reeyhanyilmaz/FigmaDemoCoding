@@ -20,7 +20,7 @@ function Paragraph() {
         pharetra. Interdum et malesuada fames ac ante ipsum primis in faucibus.
         <br />
         
-        <span className={showMore ? styles.showParagraph : styles.hideParagraph}>
+        <p className={showMore ? styles.showParagraph : styles.hideParagraph}>
           Aenean ornare rhoncus ullamcorper. Duis elementum malesuada ante eu
           gravida. Phasellus faucibus tincidunt molestie. Praesent feugiat
           bibendum ex, aliquet ultrices justo fringilla eget. Aliquam eget
@@ -46,7 +46,7 @@ function Paragraph() {
           sollicitudin augue vitae ligula ullamcorper, et fermentum felis
           egestas. Fusce egestas lacus ex, eu vulputate risus dapibus et. Cras
           et elementum augue. Suspendisse sit amet tristique libero.
-        </span>
+        </p>
         <button className={styles.showBtn} onClick={handleClick}>
           {showMore ? "GİZLE" : "YAZININ DEVAMI"}
           <img
