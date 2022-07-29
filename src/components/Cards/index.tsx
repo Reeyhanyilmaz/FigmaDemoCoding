@@ -1,237 +1,33 @@
 import React from "react";
 import styles from "./styles.module.css";
-import { Link, NavLink } from "react-router-dom";
+import { Link} from "react-router-dom";
+import { ICards } from "../../types";
 
-function Cards() {
+function Cards({ cardsContents }: { cardsContents: ICards[] }) {
   return (
     <div className={styles.cardsDiv}>
-      {/* card 1*/}
-      <Link to="/coming-soon" className={styles.linkto}>
-        <div className={styles.card}>
-          <img
-            className={styles.image}
-            src="./assets/cards-images/content1.png"
-            alt="cardimage"
-          />
+      {cardsContents.map((items, i) => (
+        <Link to="/coming-soon" className={styles.linkto} key={i}>
+          <div className={styles.card}>
+            <img className={styles.image} src={items.img} alt="cardimage" />
 
-          <div className={styles.writeDiv}>
-            <div className={styles.title}>Lorem Ipsum</div>
-            <div className={styles.name}>Hüsnü Taner</div>
-            <div className={styles.parag}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-              suscipit magna dui, eget ultrices dui euismod in.
-            </div>
-            <div className={styles.footer}>
-              <img
-                src="./assets/cards-icon/calender.png"
-                alt="calender"
-                className={styles.calender}
-              />
-
-              <div className={styles.date}>10.09.2020 - 10.10.2020</div>
-
-              <img
-                src="./assets/cards-icon/arrow.png"
-                alt="arrow"
-                className={styles.arrow}
-              />
+            <div className={styles.writeDiv}>
+              <div className={styles.title}>{items.title}</div>
+              <div className={styles.name}>{items.name}</div>
+              <div className={styles.parag}>{items.parag}</div>
+              <div className={styles.footer}>
+                <img
+                  src={items.img2}
+                  alt="calender"
+                  className={styles.calender}
+                />
+                <div className={styles.date}>{items.date}</div>
+                <img src={items.img3} alt="arrow" className={styles.arrow} />
+              </div>
             </div>
           </div>
-        </div>
-      </Link>
-
-      {/* card 2*/}
-      <Link to="/coming-soon" className={styles.linkto}>
-        <div className={styles.card}>
-          <img
-            className={styles.image}
-            src="./assets/cards-images/content2.png"
-            alt="cardimage"
-          />
-
-          <div className={styles.writeDiv}>
-            <div className={styles.title}>Nulla semper metus</div>
-            <div className={styles.name}>Mustafa Serkan Tiryaki</div>
-            <div className={styles.parag}>
-              Nulla semper metus aliquam, condimentum odio vitae, sodales
-              mauris. Donec congue leo eu libero ultricies tempor. Duis commodo
-              lacus eget felis volutpat molestie. Sed at pharetra mauris. Ut eu
-              lorem placerat, tempus velit in, feugiat libero.
-            </div>
-            <div className={styles.footer}>
-              <img
-                src="./assets/cards-icon/calender.png"
-                alt="calender"
-                className={styles.calender}
-              />
-
-              <div className={styles.date}>10.09.2020 - 10.10.2020</div>
-
-              <img
-                src="./assets/cards-icon/arrow.png"
-                alt="arrow"
-                className={styles.arrow}
-              />
-            </div>
-          </div>
-        </div>
-      </Link>
-
-      {/* card 3*/}
-      <Link to="/coming-soon" className={styles.linkto}>
-        <div className={styles.card}>
-          <img
-            className={styles.image}
-            src="./assets/cards-images/content3.png"
-            alt="cardimage"
-          />
-
-          <div className={styles.writeDiv}>
-            <div className={styles.title}>
-              Suspendisse tempus dignissim lacus ac tincidunt
-            </div>
-            <div className={styles.name}>Kerim Değirmenci</div>
-            <div className={styles.parag}>
-              Nam semper sapien et erat molestie, a porttitor sem volutpat.
-              Suspendisse tempus dignissim lacus ac tincidunt. Donec elementum
-              pharetra orci, nec laoreet felis facilisis nec. Mauris ornare
-              fermentum urna. Nunc non elit metus. Praesent sodales in nisi eget
-              volutpat.
-            </div>
-            <div className={styles.footer}>
-              <img
-                src="./assets/cards-icon/calender.png"
-                alt="calender"
-                className={styles.calender}
-              />
-
-              <div className={styles.date}>10.09.2020 - 10.10.2020</div>
-
-              <img
-                src="./assets/cards-icon/arrow.png"
-                alt="arrow"
-                className={styles.arrow}
-              />
-            </div>
-          </div>
-        </div>
-      </Link>
-
-      {/* card 4*/}
-      <Link to="/coming-soon" className={styles.linkto}>
-        <div className={styles.card}>
-          <img
-            className={styles.image}
-            src="./assets/cards-images/content1.png"
-            alt="cardimage"
-          />
-
-          <div className={styles.writeDiv}>
-            <div className={styles.title}>Integer dignissim</div>
-            <div className={styles.name}>Ebu Bekir Behram </div>
-            <div className={styles.parag}>
-              Integer nec vulputate libero. Donec at sollicitudin nibh. Nullam
-              viverra egestas lorem, sed aliquet risus efficitur eu. Nunc
-              tristique nisi ac massa finibus, sit amet blandit lectus suscipit.
-              Mauris quis faucibus lorem. Integer dignissim condimentum orci,
-              vitae pellentesque felis eleifend ac.
-            </div>
-            <div className={styles.footer}>
-              <img
-                src="./assets/cards-icon/calender.png"
-                alt="calender"
-                className={styles.calender}
-              />
-
-              <div className={styles.date}>10.09.2020 - 10.10.2020</div>
-
-              <img
-                src="./assets/cards-icon/arrow.png"
-                alt="arrow"
-                className={styles.arrow}
-              />
-            </div>
-          </div>
-        </div>
-      </Link>
-
-      {/* card 5*/}
-      <Link to="/coming-soon" className={styles.linkto}>
-        <div className={styles.card}>
-          <img
-            className={styles.image}
-            src="./assets/cards-images/content3.png"
-            alt="cardimage"
-          />
-
-          <div className={styles.writeDiv}>
-            <div className={styles.title}>
-              Suspendisse tempus dignissim lacus ac tincidunt
-            </div>
-            <div className={styles.name}>Kerim Değirmenci </div>
-            <div className={styles.parag}>
-              Nam semper sapien et erat molestie, a porttitor sem volutpat.
-              Suspendisse tempus dignissim lacus ac tincidunt. Donec elementum
-              pharetra orci, nec laoreet felis facilisis nec. Mauris ornare
-              fermentum urna. Nunc non elit metus. Praesent sodales in nisi eget
-              volutpat.
-            </div>
-            <div className={styles.footer}>
-              <img
-                src="./assets/cards-icon/calender.png"
-                alt="calender"
-                className={styles.calender}
-              />
-
-              <div className={styles.date}>10.09.2020 - 10.10.2020</div>
-
-              <img
-                src="./assets/cards-icon/arrow.png"
-                alt="arrow"
-                className={styles.arrow}
-              />
-            </div>
-          </div>
-        </div>
-      </Link>
-
-      {/* card 6*/}
-      <Link to="/coming-soon" className={styles.linkto}>
-        <div className={styles.card}>
-          <img
-            className={styles.image}
-            src="./assets/cards-images/content1.png"
-            alt="cardimage"
-          />
-
-          <div className={styles.writeDiv}>
-            <div className={styles.title}>Integer dignissim</div>
-            <div className={styles.name}>Ebu Bekir Behram </div>
-            <div className={styles.parag}>
-              Integer nec vulputate libero. Donec at sollicitudin nibh. Nullam
-              viverra egestas lorem, sed aliquet risus efficitur eu. Nunc
-              tristique nisi ac massa finibus, sit amet blandit lectus suscipit.
-              Mauris quis faucibus lorem. Integer dignissim condimentum orci,
-              vitae pellentesque felis eleifend ac.
-            </div>
-            <div className={styles.footer}>
-              <img
-                src="./assets/cards-icon/calender.png"
-                alt="calender"
-                className={styles.calender}
-              />
-
-              <div className={styles.date}>10.09.2020 - 10.10.2020</div>
-
-              <img
-                src="./assets/cards-icon/arrow.png"
-                alt="arrow"
-                className={styles.arrow}
-              />
-            </div>
-          </div>
-        </div>
-      </Link>
+        </Link>
+      ))}
     </div>
   );
 }

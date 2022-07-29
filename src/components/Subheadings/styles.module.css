@@ -34,7 +34,6 @@
   .p {
     height: 50px;
     font-size: 14px;
-    /* width: 230px !important; */
     flex-shrink: 0;
   }
 

@@ -40,15 +40,3 @@ function Subheadings() {
 }
 
 export default Subheadings;
-
-{
-  /* <Link to="/coming-soon" className={styles.linkto}>
-        <span className={styles.p1}>Lorem Ipsum</span>
-      </Link>
-      <Link to="/coming-soon" className={styles.linkto}>
-        <span className={styles.p2}>Dolor Sit Ament</span>
-      </Link>
-      <Link to="/coming-soon" className={styles.linkto}>
-        <span className={styles.p3}>Consectetur adipiscing elit</span>
-      </Link> */
-}

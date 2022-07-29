@@ -4,15 +4,16 @@ import Subheadings from "../Subheadings";
 import CardsHeader from "../CardsHeader";
 import Video from "../Video";
 import Cards from "../Cards";
+import {cardsContents} from "../../data";
 
 function Home() {
   return (
-    <div>
+    <div style={{ maxWidth: "1440px" , margin: "0 auto"}}>
       <CarouselComp />
       <Subheadings />
       <Video />
       <CardsHeader />
-      <Cards />
+      <Cards cardsContents={cardsContents} />
     </div>
   );
 }
