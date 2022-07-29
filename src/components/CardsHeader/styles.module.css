@@ -1,32 +1,24 @@
 .cardsHeader {
-  width: 312px;
+  width: 700px;
   height: 47px;
-  margin-left: 61px;
-  margin-bottom: 35px;
-  margin-top: 64px;
+  margin: 64px 0 35px 61px;
   color: #000000;
   border-bottom: 3px solid #de0f17;
   font-size: 36px;
   line-height: 42px;
   font-weight: 700;
-}
-
-.cardsHeader div {
-  width: 346px;
+  display: flex;
+  flex-shrink: 0;
+  width: fit-content;
 }
 
 @media screen and (max-width: 767px) {
   .cardsHeader {
     margin: 0 124px 27px 20px;
-    width: 231px ;
+    width: 237px ;
     height: 33px;   
     font-size: 24px;
     line-height: 28px;
     border-bottom: 3px solid #de0f17;
   }
-
-  .cardsHeader div {
-    width: 231px ;
-  }
 }
-

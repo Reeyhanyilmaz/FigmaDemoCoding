@@ -2,17 +2,20 @@
   margin-left: 60px;
   margin-bottom: 27px;
   height: 47px;
-  width: 213px;
+  width: 216px;
   border-bottom: 3px solid red;
   font-size: 36px;
   font-weight: 700;
   line-height: 42px;
   color: #000000;
+  display: flex;
+  flex-shrink: 0;
+  margin-left: 40px;
 }
 
 @media screen and (max-width: 787px) {
   .header {
-    width: 142px;
+    width: 145px;
     height: 33px;
     margin-bottom: 27px;
     font-size: 24px;
