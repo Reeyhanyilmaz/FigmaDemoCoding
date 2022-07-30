@@ -13,18 +13,26 @@ function CarouselComp() {
         autoPlay={true}
         interval={5000}
         transitionTime={1000}
+        
+        //next, prev
+        renderArrowNext={(clickHandler) => (
+          <div className={styles.arrowNext} onClick={clickHandler}></div>
+        )}
+        renderArrowPrev={(clickHandler) => (
+          <div className={styles.arrowPrev} onClick={clickHandler}></div>
+        )}
       >
         <div>
-          <img src="./assets/carousel/carousel.png" alt="carousel"/>
+          <img src="./assets/carousel/carousel.png" alt="carousel" />
         </div>
         <div>
-          <img src="./assets/carousel/carousel.png" alt="carousel"/>
+          <img src="./assets/carousel/carousel.png" alt="carousel" />
         </div>
         <div>
-          <img src="./assets/carousel/carousel.png" alt="carousel"/>
+          <img src="./assets/carousel/carousel.png" alt="carousel" />
         </div>
         <div>
-          <img src="./assets/carousel/carousel.png" alt="carousel"/>
+          <img src="./assets/carousel/carousel.png" alt="carousel" />
         </div>
       </Carousel>
     </div>
