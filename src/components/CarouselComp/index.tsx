@@ -35,6 +35,10 @@ function CarouselComp() {
           <img src="./assets/carousel/carousel.png" alt="carousel" />
         </div>
       </Carousel>
+ 
+     {/* pagination line */}
+      <div className={styles.paginationLine}></div>
+
     </div>
   );
 }
