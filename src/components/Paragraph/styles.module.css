@@ -1,8 +1,6 @@
 .content {
   width: 873px;
-  margin-right: 507px;
-  margin-left: 40px;
-  margin-bottom: 10px;
+  margin: 27px 0 10px 40px;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
@@ -15,7 +13,7 @@
 
 @media screen and (max-width: 787px) {
   .content {
-    margin: 0px 20px 0 20px;
+    margin: 27px 20px 0 20px;
     width: 335px;
   }
 

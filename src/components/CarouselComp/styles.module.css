@@ -16,6 +16,7 @@
   z-index: 5;
   height: 19px;
   width: 50px;
+  cursor: pointer;
 }
 
 .arrowNext {
@@ -29,6 +30,7 @@
   height: 10px;
   width: 50px;
   left: 120px;
+  cursor: pointer;
 }
 
 .paginationLine {
@@ -63,5 +65,13 @@
 
   .arrowNext {
     display: none;
+  }
+
+  .paginationLine{
+    bottom: 25px;
+  }
+
+  .indicator {
+    margin-bottom: 5px;
   }
 }
