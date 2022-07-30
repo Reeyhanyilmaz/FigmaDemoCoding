@@ -19,6 +19,7 @@ function Paragraph() {
         Fusce nec lobortis tellus, non mattis dui. Nulla condimentum porta
         pharetra. Interdum et malesuada fames ac ante ipsum primis in faucibus.
         <br />
+        <br />
         
         <span className={showMore ? styles.showParagraph : styles.hideParagraph}>
           Aenean ornare rhoncus ullamcorper. Duis elementum malesuada ante eu

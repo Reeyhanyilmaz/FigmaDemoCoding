@@ -26,13 +26,14 @@
     height: 50px;
     border: 2px solid #de0f17;
     margin: 18px 0 0 50px;
+    padding-right: 32px;
     font-weight: 400;
     font-size: 15px;
     line-height: 15px;
   }
 
   .buttonIcon {
-    margin-left: 170px;
+    margin-left: 155px;
     margin-top: -15px;
     width: 16px;
     height: 16px;
