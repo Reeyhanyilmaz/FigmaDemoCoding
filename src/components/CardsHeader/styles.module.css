@@ -1,22 +1,20 @@
 .cardsHeader {
-  width: 700px;
-  height: 47px;
+  display: inline;
   margin: 64px 0 35px 61px;
-  color: #000000;
-  border-bottom: 3px solid #de0f17;
+  height: 47px;
   font-size: 36px;
   line-height: 42px;
   font-weight: 700;
-  display: flex;
   flex-shrink: 0;
-  width: fit-content;
+  color: #000000;
+  border-bottom: 3px solid #de0f17;
 }
 
 @media screen and (max-width: 767px) {
   .cardsHeader {
+    display: inline;
     margin: 0 124px 27px 20px;
-    width: 237px ;
-    height: 33px;   
+    height: 33px;
     font-size: 24px;
     line-height: 28px;
     border-bottom: 3px solid #de0f17;

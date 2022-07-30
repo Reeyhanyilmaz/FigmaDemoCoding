@@ -1,7 +1,7 @@
 .cardsDiv {
   width: 1320px;
   height: 942px;
-  margin: 0 60px 122px 60px;
+  margin: 35px 60px 122px 60px;
   display: grid;
   grid-template-columns: repeat(4, 315px);
   grid-gap: 40px 20px;
@@ -103,9 +103,7 @@
   .cardsDiv {
     width: 335px;
     min-height: 648px;
-    margin-top: 27px;
-    margin-left: 0;
-    margin-bottom: 189px;
+    margin: 27px 0 189px 0;
     display: grid;
     grid-template-columns: repeat(1, 335px);
     grid-gap: 20px;
